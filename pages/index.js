@@ -38,9 +38,7 @@ export default function Index() {
           </div>
         </header>
         <div className={`${styles.section} ${styles.intro}`}>
-          <p>
-            Freelance full-stack web developer based in Bratislava, Slovakia.
-          </p>
+          <p>Front-end developer specializing in React apps in Typescript</p>
         </div>
       </div>
 
