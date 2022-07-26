@@ -7,7 +7,7 @@ export default function Index() {
       <div className={styles.topSection}>
         <header className={`${styles.section} ${styles.header}`}>
           <div className={styles.faceContainer}>
-            <img src="/face.jpg" className={styles.face} />
+            <img src="/face2.jpeg" className={styles.face} />
           </div>
           <h1 className={styles.name}>Július Retzer</h1>
           <div className={styles.links}>
@@ -46,6 +46,67 @@ export default function Index() {
 
       <div>
         <h3>Resume</h3>
+        <div className={`${styles.resumeItem}`}>
+          <h4>
+            Lead Software Engineer <Badge>Contract</Badge>
+            <Badge>Remote</Badge>
+          </h4>
+
+          <h5>
+            <a
+              target="_blank"
+              rel="noreferrer noopener nofollow"
+              href="https://www.epam.com/"
+            >
+              EPAM Systems
+            </a>
+          </h5>
+          <div className={`${styles.resumeText}`}>
+            <ul>
+              <li>
+                Assumed ownership and responsibility for the application and new
+                features​
+              </li>
+              <li>Responsible for the deployment process to production​​</li>
+              <li>
+                Initiated the development of automated tests (e2e) and their
+                introduction to the development process​​
+              </li>
+              <li>
+                Implemented crucial web app performance metrics and their
+                tracking via Firebase to measure the long-term impact of the
+                changes on the user experience​​
+              </li>
+              <li>
+                Reduced the total bundle app bundle size by roughly 20% through
+                webpack configuration​​
+              </li>
+              <li>
+                Conceived and implemented a more efficient branching and
+                releasing strategy​​
+              </li>
+              <li>Drafted several technical proposal documents​​</li>
+              <li>
+                Established stricter code quality practices (Typescript, Eslint,
+                Prettier)​​
+              </li>
+              <li>
+                Coordinated major version updates of Node.js and Next.js​​
+              </li>
+            </ul>
+            <p>Technology used: </p>
+            <ul>
+              <li>React</li>
+              <li>Typescript</li>
+              <li>Next.js</li>
+              <li>Cypress</li>
+              <li>Jest</li>
+            </ul>
+            <div className={styles.resumeItemDate}>
+              September 2020 - present
+            </div>
+          </div>
+        </div>
         <div className={`${styles.resumeItem}`}>
           <h4>
             Priznanie.digital Lead Developer <Badge>Volunteer</Badge>
@@ -108,7 +169,7 @@ export default function Index() {
               <li>Github Actions (CI)</li>
               <li>Vercel/Dokku (deployment)</li>
             </ul>
-            <div className={styles.resumeItemDate}>Februar 2020 - present</div>
+            <div className={styles.resumeItemDate}>February 2020 - present</div>
           </div>
         </div>
         <div className={`${styles.resumeItem}`}>

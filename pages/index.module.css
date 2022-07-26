@@ -35,16 +35,16 @@
 }
 
 .faceContainer {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
 }
 
 .face {
-  margin: -7px 1px;
-  height: 134%;
+  /* margin: -7px 1px; */
+  height: 100%;
 }
 
 .links {
