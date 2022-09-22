@@ -32,7 +32,7 @@ export default function Index() {
             >
               LinkedIn
             </a>
-            <a target="_blank" href="mailto:julius@retzer.dev">
+            <a target="_blank" href="mailto:jul.retzer@gmail.com">
               Email
             </a>
           </div>
