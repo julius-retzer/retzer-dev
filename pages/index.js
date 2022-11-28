@@ -14,7 +14,7 @@ export default function Index() {
             <a
               target="_blank"
               rel="noreferrer noopener nofollow"
-              href="https://github.com/wormyy"
+              href="https://github.com/julius-retzer"
             >
               Github
             </a>
