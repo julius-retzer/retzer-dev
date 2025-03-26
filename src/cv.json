@@ -1,0 +1,430 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Július Retzer",
+    "label": "Senior Software Engineer @ Quotebeam | React, Typescript, Next.js",
+    "image": "",
+    "email": "jul.retzer@gmail.com",
+    "phone": "",
+    "url": "https://retzer.dev",
+    "summary": "Results-driven Senior Software Engineer with over 10 years of experience specializing in modern frontend technologies. Expert in React, TypeScript, and Next.js with a proven track record of delivering robust, scalable web applications. Skilled at architecting maintainable solutions, implementing design systems, and mentoring junior developers. Passionate about code quality and creating exceptional user experiences.",
+    "location": {
+      "countryCode": "US",
+      "address": "Slovak Republic"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "juliusretzer",
+        "url": "https://www.linkedin.com/in/juliusretzer/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Quotebeam",
+      "position": "Senior Software Engineer",
+      "startDate": "2022-11-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": "Responsibilities:\n- Partner with cross-functional teams to architect and implement high-quality frontend features\n- Engineer maintainable, performant React/TypeScript UIs that empower customers to deliver timely communications at scale\n- Drive improvements to the component system and design implementation\n- Identify and implement engineering process optimizations to enhance team efficiency\n- Lead feature development from concept through production deployment, ensuring quality and performance\n- Conduct performance audits and implement technical improvements to enhance user experience\n- Create and maintain comprehensive technical documentation for components and development standards\n- Manage competing priorities across multiple projects while meeting critical business deadlines\n\nKey Achievements:\n- Led the transition to TypeScript, significantly improving code quality, type safety, and developer productivity\n- Architected the frontend infrastructure, making critical technical decisions around state management, build processes, and application structure\n- Evaluated and implemented optimal libraries and frameworks to enhance development efficiency and application performance\n- Designed and implemented a new component library that was adopted company-wide, creating a consistent user experience across all products\n- Introduced modern development practices that kept the codebase current with industry standards and best practices",
+      "url": "https://www.linkedin.com/company/quotebeam/",
+      "location": "California, United States"
+    },
+    {
+      "name": "Slovensko.Digital",
+      "position": "Open Source Maintainer and Developer",
+      "startDate": "2020-02-28",
+      "endDate": "2023-01-31",
+      "highlights": [],
+      "summary": "- Architected, developed and maintained Priznanie.Digital, a simplified wizard-like application to improve the process for Slovak tax returns. It aims to cover common use cases with minimal effort required from the user and to calculate necessary tax information for upload to the government website\n\n- Contributed and led the project as a volunteer, cooperating with Slovensko.Digital and working with a team to make the tax filing process easier and more accessible for small business owners in Slovakia.\n\n- Focused on improving the user experience and accessibility, adhering to gov.uk Design System guidelines to ensure a clear and intuitive interface\n\n- Utilized React, Typescript, Next.js, and other technologies such as Cypress, Jest, and Github Actions to develop and test the application\n\n- Implemented an extensive automated test suite using Cypress to ensure the accuracy of calculations in various use cases\n\n- Utilized Vercel/Dokku for deployment, ensuring a smooth and efficient rollout of the application to users",
+      "url": "https://www.linkedin.com/company/slovensko-digital/",
+      "location": "Bratislava, Slovakia"
+    },
+    {
+      "name": "EPAM Systems",
+      "position": "Lead Software Engineer",
+      "startDate": "2021-10-31",
+      "endDate": "2022-11-30",
+      "highlights": [],
+      "summary": "Led frontend development for a high-traffic web application for a major American fast food chain.\n\nKey Achievements:\n- Developed and maintained a responsive web application enabling users to browse menus, customize products, place orders, and coordinate restaurant pickup\n- Took full ownership of the guest checkout flow, implementing a seamless experience from design to production\n- Reduced total application bundle size by approximately 20% through webpack optimization, significantly improving load times and user experience\n- Implemented web app performance metrics via Firebase to measure the impact of changes, resulting in data-driven optimization decisions\n- Established automated end-to-end testing practices that improved testing coverage and application reliability\n- Conceived and implemented more efficient branching and release strategies, streamlining the development process\n- Led technical initiatives to improve code quality, including adoption of TypeScript, ESLint, and Prettier\n- Coordinated major version updates of Node.js and Next.js, ensuring smooth transitions with minimal disruption\n- Directed daily scrums and became a key technical decision-maker within the development team\n\nTechnologies: TypeScript, JavaScript, React, Next.js, Redux, Cypress, Jest, Webpack, Firebase",
+      "url": "https://www.linkedin.com/company/epam-systems/"
+    },
+    {
+      "name": "EPAM Systems",
+      "position": "Senior Software Engineer",
+      "startDate": "2020-09-30",
+      "endDate": "2021-10-31",
+      "highlights": [],
+      "summary": "Contributed to frontend development for a major American fast food chain's online ordering platform.\n\nKey Contributions:\n- Built responsive, user-friendly interfaces using React, Redux, and TypeScript\n- Managed deployment processes and troubleshooting for production environments\n- Debugged and resolved complex issues in legacy code\n- Collaborated with cross-functional teams to improve application quality and performance",
+      "url": "https://www.linkedin.com/company/epam-systems/"
+    },
+    {
+      "name": "OpenLab.sk",
+      "position": "LabMaster / Lecturer",
+      "startDate": "2019-05-31",
+      "endDate": "2020-06-30",
+      "highlights": [],
+      "summary": "- Led web development courses at OpenLab, a non-profit education initiative bridging the gap between high schools and the tech industry in Slovakia\n- Designed and implemented a practical curriculum focusing on Angular, JavaScript, and frontend best practices, preparing students for real-world development challenges\n- Mentored students through full-stack project lifecycles, from requirements gathering to production deployment, with emphasis on industry-standard workflows\n- Established a structured approach to teaching component-based architecture and state management in Angular, resulting in students successfully building production-quality applications\n- Created practical workshop materials demonstrating effective web development patterns, accessibility implementation, and performance optimization techniques\n- Guided cross-functional student teams in developing real-world applications for local businesses, providing hands-on experience with Agile methodologies\n- Introduced automated testing practices and CI/CD concepts, preparing students for professional development environments\n- Developed students' soft skills in technical communication, team collaboration, and project management alongside technical expertise",
+      "url": "https://www.linkedin.com/company/openlab-sk/",
+      "location": "Bratislava, Slovakia"
+    },
+    {
+      "name": "Danske Bank",
+      "position": "Web Developer",
+      "startDate": "2016-08-31",
+      "endDate": "2019-03-31",
+      "highlights": [],
+      "summary": "- As a Web Developer, I was an integral member of the team responsible for developing sunday.dk (now danskebank.dk/bolig), a project that aimed to help people better understand their finances when finding and purchasing a new home.\n\n- My primary focus was on frontend development, utilizing technologies such as React, Redux, Typescript, Enzyme, Webpack, and Storybook to create a seamless and intuitive user experience.\n\n- In addition to my frontend responsibilities, I also contributed to the backend of the project, utilizing \nNode, Express, Swagger, Mocha, and Sequelize to ensure the smooth functioning of the site.\n\n- One of my key responsibilities on this project was to bridge the gap between developers and designers, working to establish systematic approaches that would guide and leverage our collective efforts. This ultimately led to the creation of a comprehensive design system that helped us to maintain consistency in both our designs and implementation.\n\n- Overall, my work on sunday.dk (now danskebank.dk/bolig) was focused on improving project efficiency and delivering a high-quality product to users.",
+      "url": "https://www.linkedin.com/company/danskebank/",
+      "location": "Copenhagen Area, Denmark"
+    },
+    {
+      "name": "Quadric",
+      "position": "Web Developer",
+      "startDate": "2016-02-28",
+      "endDate": "2016-06-30",
+      "highlights": [],
+      "summary": "- Worked on a project building a new social network using Meteor and React.js as our core technologies.\n\n- Our team was dedicated to following best practices in software development, including adhering to domain-driven development principles and writing clear, accurate specifications in a domain-specific language.\n\n- Quality was a top priority for our team, and we worked hard to maintain high levels of test coverage on all levels, including e2e, integration, and unit tests using tools like Cucumber, Chimp.js, Karma, and Enzyme. We also implemented a continuous integration server as part of our build process to ensure that our code was always of the highest quality.\n\n- In addition to these efforts, our team was always looking for ways to stay up-to-date on the latest technologies and best practices in the industry. We took every opportunity we could to learn and grow as developers, and we were constantly seeking out new ways to improve our skills and knowledge.\nAll of these efforts contributed to the successful launch of our social network, www.feats.co, which has since gained a large and active user base.",
+      "url": "https://www.linkedin.com/company/quadric/",
+      "location": "Copenhagen Area, Denmark"
+    },
+    {
+      "name": "eDocu a.s.",
+      "position": "Junior Web Developer",
+      "startDate": "2015-02-28",
+      "endDate": "2016-02-28",
+      "highlights": [],
+      "summary": "- As a Junior Web Developer at eDocu, I had the opportunity to work on a unique and innovative platform that utilizes stickers with QR codes and NFC chips to bring users the right information on the spot.\n\n- I was part of a team responsible for the development and maintenance of a robust web application, which was built using dockerized microservices and a variety of technologies, including Node.js, Clojure, MongoDB, and AngularJS.\n\n- My main responsibilities included the development of new features using AngularJS, as well as the design of basic UI/UX elements to improve the user experience.\n\n- In addition to frontend development, I also contributed to backend services using Node.js, including the creation of migration and utility scripts.\n\n- Throughout my time at eDocu, I had the chance to learn from more experienced team members and participate in various learning opportunities to enhance my skills and knowledge in web development.",
+      "url": "https://www.linkedin.com/company/infones-s-r-o-/",
+      "location": "Bratislava, Slovakia"
+    },
+    {
+      "name": "Market Vision s.r.o.",
+      "position": "Mystery shopping report reviewer",
+      "startDate": "2012-05-31",
+      "endDate": "2013-02-28",
+      "highlights": [],
+      "summary": "- Review and evaluate mystery shopping reports for grammatical, stylistic, and logical correctness\n\n- Communicate with external employees to clarify and resolve any issues with report submissions\n\n- Conduct web research to gather additional information as needed\n\n- Translate reports and documents from Slovak to English as needed\n\n- Ensure that all reports meet the company's standards for quality and accuracy",
+      "url": "https://www.linkedin.com/company/market-vision-s-r-o-/",
+      "location": "Bratislava, Slovakia"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "go-ok",
+      "position": "Web developer",
+      "startDate": "2015-07-31",
+      "endDate": "2015-07-31",
+      "summary": "go-ok is an NGO monitoring wheelchair accessibility. I was a part of a two-person team developing a browser game with Meteor and AngularJS. The goal is to gamify the discovery of parking spots for the disabled through Google Streetview.",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/5307271"
+    },
+    {
+      "organization": "AIESEC in Slovakia",
+      "position": "Team Member",
+      "startDate": "2013-01-31",
+      "endDate": "2013-07-31",
+      "summary": null,
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/363325"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidade do Porto",
+      "area": "Psychology",
+      "studyType": "",
+      "startDate": "2013-12-31",
+      "endDate": "2014-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Comenius University in Bratislava",
+      "area": "Social and Work Psychology",
+      "studyType": "",
+      "startDate": "2011-12-31",
+      "endDate": "2014-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "F.G. Lorca Gymnasium",
+      "area": "Spanish - Slovak bilingual",
+      "studyType": "",
+      "startDate": "2003-12-31",
+      "endDate": "2011-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Bootstrap",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Storybook",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Webpack",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Enzyme",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Communication",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "English",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Portuguese",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cypress",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Teaching",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Sequelize.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Redux.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "jQuery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Meteor.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Meteor",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Public Speaking",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Front-end Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Spanish",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Express.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jest",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Typescript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TypeScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MongoDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Vue.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ionic Framework",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Django",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mentoring",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Next.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mocha (JavaScript Framework)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cypress.io",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AngularJS",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Elementary",
+      "language": "Danish"
+    },
+    {
+      "fluency": "Professional Working",
+      "language": "English"
+    },
+    {
+      "fluency": "Limited Working",
+      "language": "Portuguese"
+    },
+    {
+      "fluency": "Native Speaker",
+      "language": "Slovak"
+    },
+    {
+      "fluency": "Professional Working",
+      "language": "Spanish"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Matej Zilak",
+      "reference": "I've had the pleasure to work with Julius in my team for a year, working on smaller projects for our startup using AngularJS. He's been also assigned as my personal Padawan. Julius has been by far the best junior programmer in our team, a fast learner, very enthusiastic for the job, and many times I forgot I'm not dealing with a senior colleague. He is very reliable when it comes to deadlines, and many times putting extra effort and being able to push with the whole team for success.\r\n\r\nOur company, where we worked together, embraces Freedom at Work, therefore it is very important that our teammates are responsible, reliable and mature. Julius has been a great match in these terms as well, strengthening the chemistry in our internal relationships."
+    },
+    {
+      "name": "Ondrej Slinták",
+      "reference": "Julius joined the team as Junior Developer the same day I did. He never programmed professionally before and I had a chance to observe his progress in real time. He's one of the rare people that are able to learn anything very quickly if they are passionate about it. I believe he would be valuable asset in any team, not limited to web development only."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Hack the Crisis 2020 hackathon picked to finals among 7 best project",
+      "startDate": "2020-04-30",
+      "summary": "During the 2020 coronavirus outbreak, I participated in Hack The Crisis Slovakia hackathon. Together with my team, we proposed a simple solution to effectively inform the patients with negative tests (this process was severely lacking at the time).\n\nOur team was chosen by the judges for the top 7 projects from 30+ submissions.\n\nYou can see our pitch in the final live stream here: https://youtu.be/ChmGGzSE6uw?t=2805",
+      "url": "https://covid-test-info.now.sh/",
+      "endDate": "2020-04-30"
+    },
+    {
+      "name": "eDocu",
+      "startDate": "2014-01-31",
+      "summary": "Organize the world around you. eDocu brings you the right information on the spot.",
+      "url": "http://edocu.com/",
+      "endDate": "2014-01-31"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
