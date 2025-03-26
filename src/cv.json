@@ -17,6 +17,11 @@
         "network": "LinkedIn",
         "username": "juliusretzer",
         "url": "https://www.linkedin.com/in/juliusretzer/"
+      },
+      {
+        "network": "GitHub",
+        "username": "juliusretzer",
+        "url": "https://github.com/juliusretzer"
       }
     ]
   },
@@ -162,218 +167,7 @@
   "awards": [],
   "certificates": [],
   "publications": [],
-  "skills": [
-    {
-      "name": "Bootstrap",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Storybook",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Webpack",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Enzyme",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Communication",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "English",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Portuguese",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "React.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Docker",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Cypress",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Teaching",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Node.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Sequelize.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Redux.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "jQuery",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Meteor.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Meteor",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Public Speaking",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Front-end Development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Spanish",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Express.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Git",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Jest",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "HTML",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Typescript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Python",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "TypeScript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "MongoDB",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Vue.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Ionic Framework",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Linux",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Web Development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Django",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Mentoring",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Next.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Mocha (JavaScript Framework)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "CSS",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Cypress.io",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Leadership",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "AngularJS",
-      "level": "",
-      "keywords": []
-    }
-  ],
+  "skills": [],
   "languages": [
     {
       "fluency": "Elementary",
@@ -409,22 +203,56 @@
   ],
   "projects": [
     {
-      "name": "Hack the Crisis 2020 hackathon picked to finals among 7 best project",
-      "startDate": "2020-04-30",
-      "summary": "During the 2020 coronavirus outbreak, I participated in Hack The Crisis Slovakia hackathon. Together with my team, we proposed a simple solution to effectively inform the patients with negative tests (this process was severely lacking at the time).\n\nOur team was chosen by the judges for the top 7 projects from 30+ submissions.\n\nYou can see our pitch in the final live stream here: https://youtu.be/ChmGGzSE6uw?t=2805",
-      "url": "https://covid-test-info.now.sh/",
-      "endDate": "2020-04-30"
+      "name": "Priznanie.Digital",
+      "description": "A simplified wizard-like application to improve the process for Slovak tax returns, covering common use cases with minimal effort required from the user.",
+      "highlights": [
+        "Led the development of a user-friendly tax filing application for small business owners in Slovakia",
+        "Implemented a step-by-step wizard interface to simplify complex tax calculations",
+        "Built with accessibility in mind, following gov.uk Design System guidelines",
+        "Created extensive automated test suite to ensure calculation accuracy"
+      ],
+      "keywords": ["React", "TypeScript", "Next.js", "Cypress", "Jest", "GitHub Actions"],
+      "startDate": "2020-02-28",
+      "endDate": "2023-01-31",
+      "url": "https://priznanie.digital",
+      "roles": ["Lead Developer", "Architect"],
+      "entity": "Slovensko.Digital",
+      "type": "Open Source",
+      "githubUrl": "https://github.com/slovensko-digital/priznanie-digital"
     },
     {
-      "name": "eDocu",
-      "startDate": "2014-01-31",
-      "summary": "Organize the world around you. eDocu brings you the right information on the spot.",
-      "url": "http://edocu.com/",
-      "endDate": "2014-01-31"
+      "name": "Component Library",
+      "description": "A comprehensive React component library built with TypeScript, providing a consistent design system for all company products.",
+      "highlights": [
+        "Designed and implemented a reusable component library from scratch",
+        "Created detailed documentation and usage examples for each component",
+        "Implemented automated testing and visual regression testing",
+        "Established contribution guidelines and review processes"
+      ],
+      "keywords": ["React", "TypeScript", "Storybook", "Jest", "Material UI"],
+      "startDate": "2022-11-30",
+      "endDate": "",
+      "url": "",
+      "roles": ["Lead Developer", "Architect"],
+      "entity": "Quotebeam",
+      "type": "Professional"
+    },
+    {
+      "name": "E-commerce Platform",
+      "description": "A high-performance e-commerce platform for a major retail chain, featuring product browsing, cart management, checkout, and order tracking.",
+      "highlights": [
+        "Led frontend development for a complex e-commerce application",
+        "Optimized performance for high-traffic scenarios",
+        "Implemented responsive design for all device sizes",
+        "Created a seamless checkout experience with multiple payment options"
+      ],
+      "keywords": ["React", "Redux", "TypeScript", "Next.js", "Stripe", "Firebase"],
+      "startDate": "2021-10-31",
+      "endDate": "2022-11-30",
+      "url": "",
+      "roles": ["Lead Frontend Developer"],
+      "entity": "EPAM Systems",
+      "type": "Professional"
     }
-  ],
-  "meta": {
-    "version": "v1.0.0",
-    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
-  }
+  ]
 }

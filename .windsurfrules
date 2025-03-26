@@ -1,0 +1,22 @@
+Create a modern, responsive personal developer CV/portfolio website. The website should showcase my skills, projects, and experience in an engaging and professional manner.
+
+Find my cv data in cv.json.
+
+Requirements:
+Design: Clean, minimalistic, and visually appealing
+
+Sections:
+
+Hero Section: A brief introduction with a professional photo (or avatar) and a tagline.
+
+About Me: A short bio highlighting my expertise and experience.
+
+Skills: A visually appealing way to display my technical skills (e.g., icons, progress bars, or tags).
+
+Projects: A section with featured projects, each having a thumbnail, description, tech stack, and GitHub/demo links.
+
+Experience: A timeline or card-based layout displaying work experience, roles, and key contributions.
+
+Contact: A contact form and links to my LinkedIn, GitHub, and email.
+
+Tech Stack: Use Next.js  with TailwindCSS for styling.

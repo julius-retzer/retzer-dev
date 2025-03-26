@@ -1,6 +1,20 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@layer base {
+  html {
+    @apply scroll-pt-24;
+  }
+  
+  body {
+    @apply min-h-screen;
+  }
+
+  ::selection {
+    @apply bg-blue-600/30 dark:bg-blue-500/30;
+  }
 }

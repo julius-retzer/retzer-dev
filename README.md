@@ -1,29 +1,58 @@
-# Create T3 App
+# Július Retzer - Portfolio Website
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+A modern, responsive personal developer portfolio website built with Next.js and TailwindCSS. This website showcases skills, projects, and professional experience in an engaging and professional manner.
 
-## What's next? How do I make an app with this?
+## Features
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- **Responsive Design**: Looks great on all devices from mobile to desktop
+- **Modern UI**: Clean, minimalistic, and visually appealing design
+- **Dark Mode Support**: Automatically adapts to user preferences
+- **Optimized Performance**: Fast loading and smooth animations
+- **SEO Friendly**: Proper metadata and semantic HTML
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Tech Stack
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- **Framework**: [Next.js](https://nextjs.org/) (React framework)
+- **Styling**: [TailwindCSS](https://tailwindcss.com/) (Utility-first CSS framework)
+- **TypeScript**: Type-safe JavaScript
+- **Deployment**: Ready for deployment on Vercel or any hosting platform
 
-## Learn More
+## Sections
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+- **Hero**: Brief introduction with a professional photo and tagline
+- **About**: Short bio highlighting expertise and experience
+- **Skills**: Visual representation of technical skills
+- **Projects**: Featured projects with thumbnails, descriptions, and links
+- **Experience**: Timeline of work experience and key contributions
+- **Contact**: Contact form and links to social profiles
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Development
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+### Prerequisites
 
-## How do I deploy this?
+- Node.js (v18 or later)
+- pnpm (v9 or later)
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+### Getting Started
+
+```bash
+# Install dependencies
+pnpm install
+
+# Run development server
+pnpm dev
+
+# Build for production
+pnpm build
+
+# Start production server
+pnpm start
+```
+
+## Data Management
+
+All CV/resume data is stored in `src/cv.json` following the [JSON Resume](https://jsonresume.org/) schema with some extensions. Update this file to modify the content of the website.
+
+## License
+
+MIT
