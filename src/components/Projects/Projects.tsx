@@ -12,13 +12,13 @@ const Projects = ({ projects }: ProjectsProps) => {
     <section id="projects" className="py-16 relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 -z-10 bg-background">
-        <div className="absolute right-0 top-0 h-[300px] w-[300px] rounded-full bg-primary/5 blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 h-[250px] w-[250px] rounded-full bg-primary/5 blur-3xl"></div>
+        <div className="absolute right-0 top-0 h-[300px] w-[300px] rounded-full bg-primary/10 blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 h-[250px] w-[250px] rounded-full bg-accent/10 blur-3xl"></div>
       </div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="mb-6 text-3xl font-bold tracking-tight sm:text-4xl">
+          <h2 className="mb-6 text-3xl font-bold tracking-tight sm:text-4xl gradient-text">
             Featured Projects
           </h2>
           <p className="mb-12 text-lg text-muted-foreground">
@@ -30,7 +30,7 @@ const Projects = ({ projects }: ProjectsProps) => {
           {projects.map((project, index) => (
             <Card 
               key={project.name} 
-              className="overflow-hidden group transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border-border/50 opacity-0 animate-fade-in-up"
+              className="overflow-hidden group transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border-border/50 opacity-0 animate-fade-in-up glow-effect"
               style={{ animationDelay: `${index * 150}ms`, animationFillMode: 'forwards' }}
             >
               <div className="relative aspect-video overflow-hidden bg-muted">
@@ -42,15 +42,15 @@ const Projects = ({ projects }: ProjectsProps) => {
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                 ) : (
-                  <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-primary/10 to-primary/5">
-                    <span className="text-4xl font-bold text-primary/40">
+                  <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-primary/20 to-accent/10">
+                    <span className="text-4xl font-bold text-primary/60">
                       {project.name.charAt(0)}
                     </span>
                   </div>
                 )}
                 
                 {/* Overlay with gradient */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                   <h3 className="text-white font-bold text-lg">{project.name}</h3>
                 </div>
               </div>
@@ -67,7 +67,7 @@ const Projects = ({ projects }: ProjectsProps) => {
                   {project.keywords?.map((tech) => (
                     <span 
                       key={tech}
-                      className="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary transition-all hover:bg-primary/20"
+                      className="inline-flex items-center rounded-full bg-primary/15 px-2.5 py-0.5 text-xs font-medium text-primary transition-all hover:bg-primary/25"
                     >
                       {tech}
                     </span>
@@ -82,14 +82,14 @@ const Projects = ({ projects }: ProjectsProps) => {
                       href={project.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center text-sm font-medium"
+                      className="inline-flex items-center text-sm font-medium text-accent"
                     >
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="mr-1 h-4 w-4 transition-transform group-hover/btn:translate-x-0.5">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
                       </svg>
                       <span className="relative">
                         Demo
-                        <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary group-hover/btn:w-full transition-all duration-300"></span>
+                        <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent group-hover/btn:w-full transition-all duration-300"></span>
                       </span>
                     </a>
                   </Button>

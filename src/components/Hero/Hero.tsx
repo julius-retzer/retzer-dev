@@ -16,8 +16,8 @@ const Hero = ({ data }: HeroProps) => {
       {/* Background decoration elements */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute -top-40 -right-40 h-80 w-80 rounded-full bg-primary/20 blur-3xl"></div>
-        <div className="absolute top-1/4 -left-20 h-60 w-60 rounded-full bg-primary/10 blur-3xl"></div>
-        <div className="absolute bottom-0 right-1/4 h-40 w-40 rounded-full bg-primary/15 blur-3xl"></div>
+        <div className="absolute top-1/4 -left-20 h-60 w-60 rounded-full bg-accent/15 blur-3xl"></div>
+        <div className="absolute bottom-0 right-1/4 h-40 w-40 rounded-full bg-chart-3/20 blur-3xl"></div>
         
         {/* Animated grid pattern */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:24px_24px]"></div>
@@ -26,18 +26,18 @@ const Hero = ({ data }: HeroProps) => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid items-center gap-8 md:grid-cols-2">
           <div className="order-2 md:order-1">
-            <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-4 animate-fade-in">
+            <div className="inline-block rounded-lg bg-primary/15 px-3 py-1 text-sm font-medium text-primary mb-4 animate-fade-in">
               Available for new opportunities
             </div>
             <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
               <span className="block animate-fade-in-up [animation-delay:200ms]">Hi, I'm {data.name.split(' ')[0]}</span>
-              <span className="mt-2 block text-primary animate-fade-in-up [animation-delay:400ms]">{data.label.split(' | ')[0]}</span>
+              <span className="mt-2 block gradient-text animate-fade-in-up [animation-delay:400ms]">{data.label.split(' | ')[0]}</span>
             </h1>
             <p className="mb-8 max-w-2xl text-lg text-muted-foreground animate-fade-in-up [animation-delay:600ms]">
               {data.label.split(' | ')[1]}
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in-up [animation-delay:800ms]">
-              <Button asChild className="relative overflow-hidden group">
+              <Button asChild className="relative overflow-hidden group glow-effect">
                 <Link href="#contact">
                   <span className="relative z-10">Contact Me</span>
                   <span className="absolute inset-0 bg-primary-foreground/10 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
@@ -46,7 +46,7 @@ const Hero = ({ data }: HeroProps) => {
               <Button variant="outline" asChild className="relative overflow-hidden group">
                 <Link href="#projects">
                   <span className="relative z-10">View Projects</span>
-                  <span className="absolute inset-0 bg-primary/10 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                  <span className="absolute inset-0 bg-accent/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
                 </Link>
               </Button>
             </div>
@@ -54,14 +54,14 @@ const Hero = ({ data }: HeroProps) => {
           <div className="order-1 flex justify-center md:order-2">
             <div className="relative">
               {/* Decorative elements around avatar */}
-              <div className="absolute -z-10 inset-0 rounded-full bg-gradient-to-r from-primary/20 to-primary/10 blur-xl animate-pulse"></div>
-              <div className="absolute -z-10 -inset-1 rounded-full bg-gradient-to-r from-primary/30 via-primary/5 to-primary/30 animate-spin-slow"></div>
+              <div className="absolute -z-10 inset-0 rounded-full bg-gradient-to-r from-primary/30 to-accent/20 blur-xl animate-pulse"></div>
+              <div className="absolute -z-10 -inset-1 rounded-full bg-gradient-to-r from-primary/40 via-accent/20 to-primary/40 animate-spin-slow"></div>
               
               <Avatar className="h-64 w-64 sm:h-72 sm:w-72 md:h-80 md:w-80 border-4 border-background shadow-xl animate-fade-in">
                 {data.image ? (
                   <AvatarImage src={data.image} alt={data.name} />
                 ) : (
-                  <AvatarFallback className="text-6xl bg-gradient-to-br from-primary/80 to-primary">
+                  <AvatarFallback className="text-6xl bg-gradient-to-br from-primary/90 to-accent/80">
                     {initials}
                   </AvatarFallback>
                 )}

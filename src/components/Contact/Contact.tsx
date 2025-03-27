@@ -11,19 +11,25 @@ type ContactProps = {
 
 const Contact = ({ data }: ContactProps) => {
   return (
-    <section id="contact" className="py-16 bg-background">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="py-16 bg-background relative overflow-hidden">
+      {/* Background decorative elements */}
+      <div className="absolute inset-0 -z-10">
+        <div className="absolute left-1/4 top-1/3 h-[200px] w-[200px] rounded-full bg-primary/5 blur-3xl"></div>
+        <div className="absolute right-1/3 bottom-1/4 h-[300px] w-[300px] rounded-full bg-accent/5 blur-3xl"></div>
+      </div>
+      
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="mb-6 text-3xl font-bold tracking-tight sm:text-4xl">
+          <h2 className="mb-6 text-3xl font-bold tracking-tight sm:text-4xl gradient-text">
             Get In Touch
           </h2>
-          <p className="mb-12 text-lg text-muted-foreground">
+          <p className="mb-12 text-lg text-foreground/80">
             Have a project in mind or want to discuss opportunities? Feel free to reach out.
           </p>
         </div>
 
         <div className="mx-auto grid max-w-5xl gap-8 md:grid-cols-2">
-          <Card>
+          <Card className="glow-effect">
             <CardHeader>
               <CardTitle>Contact Information</CardTitle>
             </CardHeader>
@@ -61,7 +67,7 @@ const Contact = ({ data }: ContactProps) => {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="mr-3 h-6 w-6 flex-shrink-0 text-primary"
+                    className="mr-3 h-6 w-6 flex-shrink-0 text-accent"
                   >
                     <path
                       strokeLinecap="round"
@@ -75,7 +81,7 @@ const Contact = ({ data }: ContactProps) => {
                       href={data.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-primary hover:text-primary/80"
+                      className="text-accent hover:text-accent/80"
                     >
                       {data.url.replace(/^https?:\/\//, '')}
                     </a>
@@ -90,7 +96,7 @@ const Contact = ({ data }: ContactProps) => {
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="mr-3 h-6 w-6 flex-shrink-0 text-primary"
+                    className="mr-3 h-6 w-6 flex-shrink-0 text-chart-3"
                   >
                     <path
                       strokeLinecap="round"
@@ -105,7 +111,7 @@ const Contact = ({ data }: ContactProps) => {
                   </svg>
                   <div>
                     <p className="font-medium">Location</p>
-                    <p className="text-muted-foreground">{data.location.address}</p>
+                    <p className="text-foreground/80">{data.location.address}</p>
                   </div>
                 </div>
               )}
@@ -119,7 +125,7 @@ const Contact = ({ data }: ContactProps) => {
                       href={profile.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-muted-foreground hover:text-primary"
+                      className="text-foreground/80 hover:text-primary transition-colors"
                       aria-label={profile.network}
                     >
                       {profile.network === 'LinkedIn' && (
@@ -144,7 +150,7 @@ const Contact = ({ data }: ContactProps) => {
             </CardContent>
           </Card>
 
-          <Card>
+          <Card className="glow-effect">
             <CardHeader>
               <CardTitle>Send a Message</CardTitle>
             </CardHeader>

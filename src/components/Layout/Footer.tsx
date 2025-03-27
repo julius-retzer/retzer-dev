@@ -4,12 +4,12 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="mt-24 border-t border-gray-200 py-8 dark:border-gray-800">
+    <footer className="mt-24 border-t border-border py-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
           <div>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
-              © {currentYear} Július Retzer. All rights reserved.
+            <p className="text-sm text-muted-foreground">
+              {currentYear} Július Retzer. All rights reserved.
             </p>
           </div>
           <div className="flex space-x-6">
@@ -17,7 +17,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/juliusretzer/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
+              className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="LinkedIn"
             >
               <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -28,7 +28,7 @@ const Footer = () => {
               href="https://github.com/juliusretzer" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
+              className="text-muted-foreground hover:text-accent transition-colors"
               aria-label="GitHub"
             >
               <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -37,7 +37,7 @@ const Footer = () => {
             </Link>
             <Link 
               href="mailto:jul.retzer@gmail.com" 
-              className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
+              className="text-muted-foreground hover:text-chart-3 transition-colors"
               aria-label="Email"
             >
               <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

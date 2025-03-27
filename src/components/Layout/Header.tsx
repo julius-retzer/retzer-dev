@@ -15,9 +15,9 @@ const navItems: NavItem[] = [
 
 const Header = () => {
   return (
-    <header className="fixed top-0 z-50 w-full bg-white/80 backdrop-blur-md dark:bg-gray-900/80">
+    <header className="fixed top-0 z-50 w-full bg-background/80 backdrop-blur-md border-b border-border/40">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link href="/" className="text-xl font-bold tracking-tight hover:text-blue-600 dark:hover:text-blue-400">
+        <Link href="/" className="text-xl font-bold tracking-tight gradient-text hover:opacity-90 transition-opacity">
           JR
         </Link>
         <nav className="hidden md:block">
@@ -26,16 +26,17 @@ const Header = () => {
               <li key={item.label}>
                 <Link 
                   href={item.href}
-                  className="text-sm font-medium text-gray-700 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400"
+                  className="text-sm font-medium text-foreground transition-colors hover:text-primary relative group"
                 >
                   {item.label}
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300"></span>
                 </Link>
               </li>
             ))}
           </ul>
         </nav>
         <button 
-          className="rounded-md border border-gray-300 p-2 text-gray-500 hover:text-blue-600 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-400 md:hidden"
+          className="rounded-md border border-border p-2 text-foreground hover:text-primary hover:border-primary transition-colors md:hidden"
           aria-label="Toggle menu"
         >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-6 w-6">

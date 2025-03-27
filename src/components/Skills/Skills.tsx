@@ -17,27 +17,27 @@ const Skills = ({ skills }: SkillsProps) => {
 
   const getSkillColor = (category: string) => {
     const colors = {
-      'Frontend': 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300',
-      'Backend': 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300',
-      'Languages': 'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300',
-      'Tools': 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300',
-      'Frameworks': 'bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300',
-      'Testing': 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300',
-      'Databases': 'bg-pink-100 text-pink-800 dark:bg-pink-900 dark:text-pink-300',
-      'DevOps': 'bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300',
+      'Frontend': 'bg-primary/15 text-primary dark:bg-primary/20 dark:text-primary',
+      'Backend': 'bg-accent/15 text-accent dark:bg-accent/20 dark:text-accent',
+      'Languages': 'bg-chart-3/15 text-chart-3 dark:bg-chart-3/20 dark:text-chart-3',
+      'Tools': 'bg-chart-5/15 text-chart-5 dark:bg-chart-5/20 dark:text-chart-5',
+      'Frameworks': 'bg-chart-1/15 text-chart-1 dark:bg-chart-1/20 dark:text-chart-1',
+      'Testing': 'bg-destructive/15 text-destructive dark:bg-destructive/20 dark:text-destructive',
+      'Databases': 'bg-chart-2/15 text-chart-2 dark:bg-chart-2/20 dark:text-chart-2',
+      'DevOps': 'bg-muted text-muted-foreground dark:bg-muted dark:text-muted-foreground',
     };
     
-    return colors[category as keyof typeof colors] || 'bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300';
+    return colors[category as keyof typeof colors] || 'bg-muted text-muted-foreground dark:bg-muted dark:text-muted-foreground';
   };
 
   return (
-    <section id="skills" className="py-16 bg-gray-50 dark:bg-gray-800/50">
+    <section id="skills" className="py-16 bg-muted/30 dark:bg-muted/10">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="mb-6 text-3xl font-bold tracking-tight sm:text-4xl">
+          <h2 className="mb-6 text-3xl font-bold tracking-tight sm:text-4xl gradient-text">
             Skills & Expertise
           </h2>
-          <p className="mb-12 text-lg text-gray-600 dark:text-gray-400">
+          <p className="mb-12 text-lg text-muted-foreground">
             Here are the technologies and tools I specialize in.
           </p>
         </div>
@@ -46,9 +46,9 @@ const Skills = ({ skills }: SkillsProps) => {
           {Object.entries(skillsByCategory).map(([category, keywords]) => (
             <div 
               key={category}
-              className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md dark:border-gray-700 dark:bg-gray-900"
+              className="overflow-hidden rounded-lg border border-border bg-card shadow-sm transition-all hover:shadow-md glow-effect"
             >
-              <div className="border-b border-gray-200 bg-gray-50 px-4 py-3 dark:border-gray-700 dark:bg-gray-800">
+              <div className="border-b border-border px-4 py-3 bg-card/80">
                 <h3 className="text-lg font-medium">{category}</h3>
               </div>
               <div className="p-4">

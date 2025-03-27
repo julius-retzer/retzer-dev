@@ -7,10 +7,16 @@ type AboutProps = {
 
 const About = ({ data }: AboutProps) => {
   return (
-    <section id="about" className="py-16 bg-muted/30">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="about" className="py-16 bg-muted/30 dark:bg-muted/10 relative overflow-hidden">
+      {/* Background decoration elements */}
+      <div className="absolute inset-0 -z-10">
+        <div className="absolute right-1/4 top-1/3 h-[250px] w-[250px] rounded-full bg-primary/5 blur-3xl"></div>
+        <div className="absolute left-1/3 bottom-1/4 h-[200px] w-[200px] rounded-full bg-accent/5 blur-3xl"></div>
+      </div>
+      
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="mb-6 text-3xl font-bold tracking-tight sm:text-4xl">
+          <h2 className="mb-6 text-3xl font-bold tracking-tight sm:text-4xl gradient-text">
             About Me
           </h2>
           <div className="prose prose-lg mx-auto">
@@ -24,7 +30,7 @@ const About = ({ data }: AboutProps) => {
                 key={profile.network}
                 variant="outline"
                 size="sm"
-                className="gap-2"
+                className="gap-2 hover:bg-primary/10 hover:text-primary transition-colors"
                 asChild
               >
                 <a
@@ -49,7 +55,7 @@ const About = ({ data }: AboutProps) => {
             <Button 
               variant="outline"
               size="sm"
-              className="gap-2"
+              className="gap-2 hover:bg-accent/10 hover:text-accent transition-colors"
               asChild
             >
               <a

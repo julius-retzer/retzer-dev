@@ -5,11 +5,11 @@
     "label": "Senior Software Engineer @ Quotebeam | React, Typescript, Next.js",
     "image": "",
     "email": "jul.retzer@gmail.com",
-    "phone": "",
+    "phone": "+421948723087",
     "url": "https://retzer.dev",
     "summary": "Results-driven Senior Software Engineer with over 10 years of experience specializing in modern frontend technologies. Expert in React, TypeScript, and Next.js with a proven track record of delivering robust, scalable web applications. Skilled at architecting maintainable solutions, implementing design systems, and mentoring junior developers. Passionate about code quality and creating exceptional user experiences.",
     "location": {
-      "countryCode": "US",
+      "countryCode": "SK",
       "address": "Slovak Republic"
     },
     "profiles": [
@@ -30,7 +30,7 @@
       "name": "Quotebeam",
       "position": "Senior Software Engineer",
       "startDate": "2022-11-30",
-      "endDate": "",
+      "endDate": "2025-04-18",
       "highlights": [],
       "summary": "Responsibilities:\n- Partner with cross-functional teams to architect and implement high-quality frontend features\n- Engineer maintainable, performant React/TypeScript UIs that empower customers to deliver timely communications at scale\n- Drive improvements to the component system and design implementation\n- Identify and implement engineering process optimizations to enhance team efficiency\n- Lead feature development from concept through production deployment, ensuring quality and performance\n- Conduct performance audits and implement technical improvements to enhance user experience\n- Create and maintain comprehensive technical documentation for components and development standards\n- Manage competing priorities across multiple projects while meeting critical business deadlines\n\nKey Achievements:\n- Led the transition to TypeScript, significantly improving code quality, type safety, and developer productivity\n- Architected the frontend infrastructure, making critical technical decisions around state management, build processes, and application structure\n- Evaluated and implemented optimal libraries and frameworks to enhance development efficiency and application performance\n- Designed and implemented a new component library that was adopted company-wide, creating a consistent user experience across all products\n- Introduced modern development practices that kept the codebase current with industry standards and best practices",
       "url": "https://www.linkedin.com/company/quotebeam/",
@@ -115,55 +115,8 @@
       "location": "Bratislava, Slovakia"
     }
   ],
-  "volunteer": [
-    {
-      "organization": "go-ok",
-      "position": "Web developer",
-      "startDate": "2015-07-31",
-      "endDate": "2015-07-31",
-      "summary": "go-ok is an NGO monitoring wheelchair accessibility. I was a part of a two-person team developing a browser game with Meteor and AngularJS. The goal is to gamify the discovery of parking spots for the disabled through Google Streetview.",
-      "highlights": [],
-      "url": "https://www.linkedin.com/company/5307271"
-    },
-    {
-      "organization": "AIESEC in Slovakia",
-      "position": "Team Member",
-      "startDate": "2013-01-31",
-      "endDate": "2013-07-31",
-      "summary": null,
-      "highlights": [],
-      "url": "https://www.linkedin.com/company/363325"
-    }
-  ],
-  "education": [
-    {
-      "institution": "Universidade do Porto",
-      "area": "Psychology",
-      "studyType": "",
-      "startDate": "2013-12-31",
-      "endDate": "2014-12-31",
-      "score": "",
-      "courses": []
-    },
-    {
-      "institution": "Comenius University in Bratislava",
-      "area": "Social and Work Psychology",
-      "studyType": "",
-      "startDate": "2011-12-31",
-      "endDate": "2014-12-31",
-      "score": "",
-      "courses": []
-    },
-    {
-      "institution": "F.G. Lorca Gymnasium",
-      "area": "Spanish - Slovak bilingual",
-      "studyType": "",
-      "startDate": "2003-12-31",
-      "endDate": "2011-12-31",
-      "score": "",
-      "courses": []
-    }
-  ],
+  "volunteer": [],
+  "education": [],
   "awards": [],
   "certificates": [],
   "publications": [],
@@ -219,40 +172,6 @@
       "entity": "Slovensko.Digital",
       "type": "Open Source",
       "githubUrl": "https://github.com/slovensko-digital/priznanie-digital"
-    },
-    {
-      "name": "Component Library",
-      "description": "A comprehensive React component library built with TypeScript, providing a consistent design system for all company products.",
-      "highlights": [
-        "Designed and implemented a reusable component library from scratch",
-        "Created detailed documentation and usage examples for each component",
-        "Implemented automated testing and visual regression testing",
-        "Established contribution guidelines and review processes"
-      ],
-      "keywords": ["React", "TypeScript", "Storybook", "Jest", "Material UI"],
-      "startDate": "2022-11-30",
-      "endDate": "",
-      "url": "",
-      "roles": ["Lead Developer", "Architect"],
-      "entity": "Quotebeam",
-      "type": "Professional"
-    },
-    {
-      "name": "E-commerce Platform",
-      "description": "A high-performance e-commerce platform for a major retail chain, featuring product browsing, cart management, checkout, and order tracking.",
-      "highlights": [
-        "Led frontend development for a complex e-commerce application",
-        "Optimized performance for high-traffic scenarios",
-        "Implemented responsive design for all device sizes",
-        "Created a seamless checkout experience with multiple payment options"
-      ],
-      "keywords": ["React", "Redux", "TypeScript", "Next.js", "Stripe", "Firebase"],
-      "startDate": "2021-10-31",
-      "endDate": "2022-11-30",
-      "url": "",
-      "roles": ["Lead Frontend Developer"],
-      "entity": "EPAM Systems",
-      "type": "Professional"
     }
   ]
 }

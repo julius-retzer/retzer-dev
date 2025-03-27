@@ -58,37 +58,56 @@
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  /* Modern Dark Theme Palette with Improved Contrast */
+  --background: oklch(0.12 0 0); /* Deeper black for background */
+  --foreground: oklch(0.98 0 0); /* Crisp white text */
+  
+  /* Card and UI Elements */
+  --card: oklch(0.18 0 0); /* Slightly lighter than background */
+  --card-foreground: oklch(0.98 0 0);
+  --popover: oklch(0.18 0 0);
+  --popover-foreground: oklch(0.98 0 0);
+  
+  /* Primary Accent - Vibrant Purple with improved contrast */
+  --primary: oklch(0.65 0.28 295); /* Brighter purple for better contrast */
+  --primary-foreground: oklch(0.98 0 0);
+  
+  /* Secondary Colors */
+  --secondary: oklch(0.22 0 0); /* Dark gray with slight elevation */
+  --secondary-foreground: oklch(0.98 0 0);
+  
+  /* Muted Elements - Improved contrast */
+  --muted: oklch(0.25 0 0);
+  --muted-foreground: oklch(0.85 0 0); /* Brighter for better readability */
+  
+  /* Accent - Teal with improved contrast */
+  --accent: oklch(0.7 0.25 195); /* Brighter teal for better contrast */
+  --accent-foreground: oklch(0.12 0 0);
+  
+  /* Destructive */
+  --destructive: oklch(0.7 0.3 25); /* Brighter red for better visibility */
+  
+  /* UI Elements */
+  --border: oklch(0.35 0 0); /* Slightly lighter border for better visibility */
+  --input: oklch(0.35 0 0);
+  --ring: oklch(0.65 0.28 295); /* Match primary for focus rings */
+  
+  /* Chart Colors - Vibrant and Distinct with improved contrast */
+  --chart-1: oklch(0.65 0.28 295); /* Purple */
+  --chart-2: oklch(0.7 0.25 195);  /* Teal */
+  --chart-3: oklch(0.75 0.25 130);  /* Green */
+  --chart-4: oklch(0.7 0.3 25);  /* Red */
+  --chart-5: oklch(0.75 0.25 60);   /* Orange */
+  
+  /* Sidebar */
+  --sidebar: oklch(0.15 0 0); /* Slightly darker than cards */
+  --sidebar-foreground: oklch(0.98 0 0);
+  --sidebar-primary: oklch(0.65 0.28 295); /* Match primary */
+  --sidebar-primary-foreground: oklch(0.98 0 0);
+  --sidebar-accent: oklch(0.7 0.25 195); /* Match accent */
+  --sidebar-accent-foreground: oklch(0.12 0 0);
+  --sidebar-border: oklch(0.35 0 0);
+  --sidebar-ring: oklch(0.65 0.28 295); /* Match primary */
 }
 
 @theme inline {
@@ -173,4 +192,23 @@
 
 .animate-spin-slow {
   animation: spin-slow 20s linear infinite;
+}
+
+/* Gradient text effect */
+.gradient-text {
+  background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Glow effect for cards */
+.glow-effect {
+  box-shadow: 0 0 15px 0 rgba(var(--color-primary), 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.glow-effect:hover {
+  box-shadow: 0 0 25px 0 rgba(var(--color-primary), 0.2);
 }
