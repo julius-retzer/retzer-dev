@@ -65,7 +65,7 @@
         "Utilized Vercel/Dokku for deployment, ensuring a smooth and efficient rollout of the application to users"
       ],
       "summary": "",
-      "url": "https://www.linkedin.com/company/slovensko-digital/",
+      "url": "https://priznanie.digital",
       "location": "Bratislava, Slovakia"
     },
     {
@@ -92,6 +92,7 @@
       "position": "Senior Software Engineer",
       "startDate": "2020-09-30",
       "endDate": "2021-10-31",
+      "url": "https://www.epam.com",
       "isRemote": true,
       "highlights": [
         "Built responsive, user-friendly interfaces using React, Redux, and TypeScript",
@@ -107,6 +108,7 @@
       "position": "LabMaster / Lecturer",
       "startDate": "2019-05-31",
       "endDate": "2020-06-30",
+      "url": "https://openlab.sk",
       "highlights": [
         "Led web development courses at OpenLab, a non-profit education initiative bridging the gap between high schools and the tech industry in Slovakia",
         "Designed and implemented a practical curriculum focusing on Angular, JavaScript, and frontend best practices, preparing students for real-world development challenges",
@@ -117,8 +119,7 @@
         "Introduced automated testing practices and CI/CD concepts, preparing students for professional development environments",
         "Developed students' soft skills in technical communication, team collaboration, and project management alongside technical expertise"
       ],
-      "summary": "",
-      "url": "https://www.linkedin.com/company/openlab-sk/",
+      "summary": "Taught web development courses at OpenLab, a non-profit education initiative, preparing students for real-world development challenges and bridging the gap between high schools and the tech industry in Slovakia.",
       "location": "Bratislava, Slovakia"
     },
     {
@@ -135,7 +136,7 @@
         "Focused on improving project efficiency and delivering a high-quality product to users"
       ],
       "summary": "Web Developer for sunday.dk (now danskebank.dk/bolig), a financial guidance platform for home buyers.",
-      "url": "https://www.linkedin.com/company/danskebank/",
+      "url": "https://www.danskebank.dk/bolig",
       "location": "Copenhagen Area, Denmark"
     },
     {
@@ -174,7 +175,30 @@
   "awards": [],
   "certificates": [],
   "publications": [],
-  "skills": [],
+  "skills": [
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "TypeScript"
+    },
+    {
+      "name": "React"
+    },
+    {
+      "name": "Next.js"
+    },
+    {
+      "name": "Node.js"
+    },
+    {
+      "name": "Testing",
+      "keywords": ["Jest", "Cypress", "End-to-End Testing", "Unit Testing"]
+    },
+    {
+      "name": "CI/CD"
+    }
+  ],
   "languages": [
     {
       "fluency": "Professional Working",

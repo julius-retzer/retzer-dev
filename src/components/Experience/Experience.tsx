@@ -1,6 +1,7 @@
 import { type CVData } from '~/types/cv';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '~/components/ui/card';
 import { Badge } from '~/components/ui/badge';
+import { ExternalLink } from 'lucide-react';
 
 type ExperienceProps = {
   work: CVData['work'];
@@ -10,10 +11,7 @@ const formatDate = (dateString: string) => {
   if (!dateString) return 'Present';
   
   const date = new Date(dateString);
-  return date.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
-  });
+  return date.getFullYear().toString();
 };
 
 const Experience = ({ work }: ExperienceProps) => {
@@ -49,7 +47,19 @@ const Experience = ({ work }: ExperienceProps) => {
                   <CardHeader className="pb-2">
                     <div className="flex flex-col gap-1">
                       <div className="flex items-center gap-2">
-                        <CardTitle className="text-xl font-bold">{job.name}</CardTitle>
+                        {job.url ? (
+                          <a 
+                            href={job.url} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-1 hover:text-primary transition-colors"
+                          >
+                            <CardTitle className="text-xl font-bold">{job.name}</CardTitle>
+                            <ExternalLink size={16} className="inline-block" />
+                          </a>
+                        ) : (
+                          <CardTitle className="text-xl font-bold">{job.name}</CardTitle>
+                        )}
                         {job.isRemote && (
                           <Badge variant="secondary" className="font-medium text-xs">Remote</Badge>
                         )}
@@ -62,7 +72,7 @@ const Experience = ({ work }: ExperienceProps) => {
                       {formatDate(job.startDate)} - {formatDate(job.endDate)}
                       {job.location && (
                         <>
-                          <span className="mx-2">·</span>
+                          <span className="mx-2">&#x00B7;</span>
                           <span>{job.location}</span>
                         </>
                       )}
