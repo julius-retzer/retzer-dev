@@ -62,13 +62,16 @@ const Experience = ({ work }: ExperienceProps) => {
                     </CardDescription>
                   </CardHeader>
                   <CardContent className="pt-0">
-                    <div className="prose prose-gray max-w-none">
-                      {job.summary.split('\n\n').map((paragraph, i) => (
-                        <p key={i} className="text-muted-foreground">
-                          {paragraph}
-                        </p>
-                      ))}
-                    </div>
+                    {job.summary && job.summary.trim() !== "" && (
+                      <p className="text-muted-foreground mb-4">{job.summary}</p>
+                    )}
+                    {job.highlights && job.highlights.length > 0 && (
+                      <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
+                        {job.highlights.map((highlight, i) => (
+                          <li key={i} className="text-sm">{highlight}</li>
+                        ))}
+                      </ul>
+                    )}
                   </CardContent>
                 </Card>
               </div>

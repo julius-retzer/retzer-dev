@@ -31,8 +31,24 @@
       "position": "Senior Software Engineer",
       "startDate": "2022-11-30",
       "endDate": "2025-04-18",
-      "highlights": [],
-      "summary": "Responsibilities:\n- Partner with cross-functional teams to architect and implement high-quality frontend features\n- Engineer maintainable, performant React/TypeScript UIs that empower customers to deliver timely communications at scale\n- Drive improvements to the component system and design implementation\n- Identify and implement engineering process optimizations to enhance team efficiency\n- Lead feature development from concept through production deployment, ensuring quality and performance\n- Conduct performance audits and implement technical improvements to enhance user experience\n- Create and maintain comprehensive technical documentation for components and development standards\n- Manage competing priorities across multiple projects while meeting critical business deadlines\n\nKey Achievements:\n- Led the transition to TypeScript, significantly improving code quality, type safety, and developer productivity\n- Architected the frontend infrastructure, making critical technical decisions around state management, build processes, and application structure\n- Evaluated and implemented optimal libraries and frameworks to enhance development efficiency and application performance\n- Designed and implemented a new component library that was adopted company-wide, creating a consistent user experience across all products\n- Introduced modern development practices that kept the codebase current with industry standards and best practices",
+      "highlights": [
+        "Responsibilities:",
+        "Partner with cross-functional teams to architect and implement high-quality frontend features",
+        "Engineer maintainable, performant React/TypeScript UIs that empower customers to deliver timely communications at scale",
+        "Drive improvements to the component system and design implementation",
+        "Identify and implement engineering process optimizations to enhance team efficiency",
+        "Lead feature development from concept through production deployment, ensuring quality and performance",
+        "Conduct performance audits and implement technical improvements to enhance user experience",
+        "Create and maintain comprehensive technical documentation for components and development standards",
+        "Manage competing priorities across multiple projects while meeting critical business deadlines",
+        "Key Achievements:",
+        "Led the transition to TypeScript, significantly improving code quality, type safety, and developer productivity",
+        "Architected the frontend infrastructure, making critical technical decisions around state management, build processes, and application structure",
+        "Evaluated and implemented optimal libraries and frameworks to enhance development efficiency and application performance",
+        "Designed and implemented a new component library that was adopted company-wide, creating a consistent user experience across all products",
+        "Introduced modern development practices that kept the codebase current with industry standards and best practices"
+      ],
+      "summary": "",
       "url": "https://www.linkedin.com/company/quotebeam/",
       "location": "California, United States"
     },
@@ -41,8 +57,15 @@
       "position": "Open Source Maintainer and Developer",
       "startDate": "2020-02-28",
       "endDate": "2023-01-31",
-      "highlights": [],
-      "summary": "- Architected, developed and maintained Priznanie.Digital, a simplified wizard-like application to improve the process for Slovak tax returns. It aims to cover common use cases with minimal effort required from the user and to calculate necessary tax information for upload to the government website\n\n- Contributed and led the project as a volunteer, cooperating with Slovensko.Digital and working with a team to make the tax filing process easier and more accessible for small business owners in Slovakia.\n\n- Focused on improving the user experience and accessibility, adhering to gov.uk Design System guidelines to ensure a clear and intuitive interface\n\n- Utilized React, Typescript, Next.js, and other technologies such as Cypress, Jest, and Github Actions to develop and test the application\n\n- Implemented an extensive automated test suite using Cypress to ensure the accuracy of calculations in various use cases\n\n- Utilized Vercel/Dokku for deployment, ensuring a smooth and efficient rollout of the application to users",
+      "highlights": [
+        "Architected, developed and maintained Priznanie.Digital, a simplified wizard-like application to improve the process for Slovak tax returns. It aims to cover common use cases with minimal effort required from the user and to calculate necessary tax information for upload to the government website",
+        "Contributed and led the project as a volunteer, cooperating with Slovensko.Digital and working with a team to make the tax filing process easier and more accessible for small business owners in Slovakia",
+        "Focused on improving the user experience and accessibility, adhering to gov.uk Design System guidelines to ensure a clear and intuitive interface",
+        "Utilized React, Typescript, Next.js, and other technologies such as Cypress, Jest, and Github Actions to develop and test the application",
+        "Implemented an extensive automated test suite using Cypress to ensure the accuracy of calculations in various use cases",
+        "Utilized Vercel/Dokku for deployment, ensuring a smooth and efficient rollout of the application to users"
+      ],
+      "summary": "",
       "url": "https://www.linkedin.com/company/slovensko-digital/",
       "location": "Bratislava, Slovakia"
     },
@@ -51,26 +74,49 @@
       "position": "Lead Software Engineer",
       "startDate": "2021-10-31",
       "endDate": "2022-11-30",
-      "highlights": [],
-      "summary": "Led frontend development for a high-traffic web application for a major American fast food chain.\n\nKey Achievements:\n- Developed and maintained a responsive web application enabling users to browse menus, customize products, place orders, and coordinate restaurant pickup\n- Took full ownership of the guest checkout flow, implementing a seamless experience from design to production\n- Reduced total application bundle size by approximately 20% through webpack optimization, significantly improving load times and user experience\n- Implemented web app performance metrics via Firebase to measure the impact of changes, resulting in data-driven optimization decisions\n- Established automated end-to-end testing practices that improved testing coverage and application reliability\n- Conceived and implemented more efficient branching and release strategies, streamlining the development process\n- Led technical initiatives to improve code quality, including adoption of TypeScript, ESLint, and Prettier\n- Coordinated major version updates of Node.js and Next.js, ensuring smooth transitions with minimal disruption\n- Directed daily scrums and became a key technical decision-maker within the development team\n\nTechnologies: TypeScript, JavaScript, React, Next.js, Redux, Cypress, Jest, Webpack, Firebase",
-      "url": "https://www.linkedin.com/company/epam-systems/"
+      "highlights": [
+        "Developed and maintained a responsive web application enabling users to browse menus, customize products, place orders, and coordinate restaurant pickup",
+        "Took full ownership of the guest checkout flow, implementing a seamless experience from design to production",
+        "Reduced total application bundle size by approximately 20% through webpack optimization, significantly improving load times and user experience",
+        "Implemented web app performance metrics via Firebase to measure the impact of changes, resulting in data-driven optimization decisions",
+        "Established automated end-to-end testing practices that improved testing coverage and application reliability",
+        "Conceived and implemented more efficient branching and release strategies, streamlining the development process",
+        "Led technical initiatives to improve code quality, including adoption of TypeScript, ESLint, and Prettier",
+        "Coordinated major version updates of Node.js and Next.js, ensuring smooth transitions with minimal disruption",
+        "Directed daily scrums and became a key technical decision-maker within the development team"
+      ],
+      "summary": "Led frontend development for a high-traffic web application for a major American fast food chain."
     },
     {
       "name": "EPAM Systems",
       "position": "Senior Software Engineer",
       "startDate": "2020-09-30",
       "endDate": "2021-10-31",
-      "highlights": [],
-      "summary": "Contributed to frontend development for a major American fast food chain's online ordering platform.\n\nKey Contributions:\n- Built responsive, user-friendly interfaces using React, Redux, and TypeScript\n- Managed deployment processes and troubleshooting for production environments\n- Debugged and resolved complex issues in legacy code\n- Collaborated with cross-functional teams to improve application quality and performance",
-      "url": "https://www.linkedin.com/company/epam-systems/"
+      "highlights": [
+        "Built responsive, user-friendly interfaces using React, Redux, and TypeScript",
+        "Managed deployment processes and troubleshooting for production environments",
+        "Debugged and resolved complex issues in legacy code",
+        "Collaborated with cross-functional teams to improve application quality and performance"
+      ],
+      "summary": "Contributed to frontend development for a major American fast food chain's online ordering platform."
+
     },
     {
       "name": "OpenLab.sk",
       "position": "LabMaster / Lecturer",
       "startDate": "2019-05-31",
       "endDate": "2020-06-30",
-      "highlights": [],
-      "summary": "- Led web development courses at OpenLab, a non-profit education initiative bridging the gap between high schools and the tech industry in Slovakia\n- Designed and implemented a practical curriculum focusing on Angular, JavaScript, and frontend best practices, preparing students for real-world development challenges\n- Mentored students through full-stack project lifecycles, from requirements gathering to production deployment, with emphasis on industry-standard workflows\n- Established a structured approach to teaching component-based architecture and state management in Angular, resulting in students successfully building production-quality applications\n- Created practical workshop materials demonstrating effective web development patterns, accessibility implementation, and performance optimization techniques\n- Guided cross-functional student teams in developing real-world applications for local businesses, providing hands-on experience with Agile methodologies\n- Introduced automated testing practices and CI/CD concepts, preparing students for professional development environments\n- Developed students' soft skills in technical communication, team collaboration, and project management alongside technical expertise",
+      "highlights": [
+        "Led web development courses at OpenLab, a non-profit education initiative bridging the gap between high schools and the tech industry in Slovakia",
+        "Designed and implemented a practical curriculum focusing on Angular, JavaScript, and frontend best practices, preparing students for real-world development challenges",
+        "Mentored students through full-stack project lifecycles, from requirements gathering to production deployment, with emphasis on industry-standard workflows",
+        "Established a structured approach to teaching component-based architecture and state management in Angular, resulting in students successfully building production-quality applications",
+        "Created practical workshop materials demonstrating effective web development patterns, accessibility implementation, and performance optimization techniques",
+        "Guided cross-functional student teams in developing real-world applications for local businesses, providing hands-on experience with Agile methodologies",
+        "Introduced automated testing practices and CI/CD concepts, preparing students for professional development environments",
+        "Developed students' soft skills in technical communication, team collaboration, and project management alongside technical expertise"
+      ],
+      "summary": "",
       "url": "https://www.linkedin.com/company/openlab-sk/",
       "location": "Bratislava, Slovakia"
     },
@@ -79,8 +125,15 @@
       "position": "Web Developer",
       "startDate": "2016-08-31",
       "endDate": "2019-03-31",
-      "highlights": [],
-      "summary": "- As a Web Developer, I was an integral member of the team responsible for developing sunday.dk (now danskebank.dk/bolig), a project that aimed to help people better understand their finances when finding and purchasing a new home.\n\n- My primary focus was on frontend development, utilizing technologies such as React, Redux, Typescript, Enzyme, Webpack, and Storybook to create a seamless and intuitive user experience.\n\n- In addition to my frontend responsibilities, I also contributed to the backend of the project, utilizing \nNode, Express, Swagger, Mocha, and Sequelize to ensure the smooth functioning of the site.\n\n- One of my key responsibilities on this project was to bridge the gap between developers and designers, working to establish systematic approaches that would guide and leverage our collective efforts. This ultimately led to the creation of a comprehensive design system that helped us to maintain consistency in both our designs and implementation.\n\n- Overall, my work on sunday.dk (now danskebank.dk/bolig) was focused on improving project efficiency and delivering a high-quality product to users.",
+      "highlights": [
+        "Integral member of the team responsible for developing sunday.dk (now danskebank.dk/bolig), a project that aimed to help people better understand their finances when finding and purchasing a new home",
+        "Primary focus was on frontend development, utilizing technologies such as React, Redux, Typescript, Enzyme, Webpack, and Storybook to create a seamless and intuitive user experience",
+        "Contributed to the backend of the project, utilizing Node, Express, Swagger, Mocha, and Sequelize to ensure the smooth functioning of the site",
+        "Bridged the gap between developers and designers, working to establish systematic approaches that would guide and leverage collective efforts",
+        "Created a comprehensive design system that helped maintain consistency in both designs and implementation",
+        "Focused on improving project efficiency and delivering a high-quality product to users"
+      ],
+      "summary": "Web Developer for sunday.dk (now danskebank.dk/bolig), a financial guidance platform for home buyers.",
       "url": "https://www.linkedin.com/company/danskebank/",
       "location": "Copenhagen Area, Denmark"
     },
@@ -89,19 +142,29 @@
       "position": "Web Developer",
       "startDate": "2016-02-28",
       "endDate": "2016-06-30",
-      "highlights": [],
-      "summary": "- Worked on a project building a new social network using Meteor and React.js as our core technologies.\n\n- Our team was dedicated to following best practices in software development, including adhering to domain-driven development principles and writing clear, accurate specifications in a domain-specific language.\n\n- Quality was a top priority for our team, and we worked hard to maintain high levels of test coverage on all levels, including e2e, integration, and unit tests using tools like Cucumber, Chimp.js, Karma, and Enzyme. We also implemented a continuous integration server as part of our build process to ensure that our code was always of the highest quality.\n\n- In addition to these efforts, our team was always looking for ways to stay up-to-date on the latest technologies and best practices in the industry. We took every opportunity we could to learn and grow as developers, and we were constantly seeking out new ways to improve our skills and knowledge.\nAll of these efforts contributed to the successful launch of our social network, www.feats.co, which has since gained a large and active user base.",
-      "url": "https://www.linkedin.com/company/quadric/",
-      "location": "Copenhagen Area, Denmark"
+      "highlights": [
+        "Worked on a project building a new social network using Meteor and React.js as core technologies",
+        "Team was dedicated to following best practices in software development, including adhering to domain-driven development principles",
+        "Wrote clear, accurate specifications in a domain-specific language",
+        "Quality was a top priority for our team, and we worked hard to maintain high levels of test coverage on all levels, including e2e, integration, and unit tests using tools like Cucumber, Chimp.js, Karma, and Enzyme",
+        "Implemented a continuous integration server as part of our build process to ensure that our code was always of the highest quality",
+        "Focused on staying up-to-date on the latest technologies and best practices in the industry, and took every opportunity to learn and grow as developers"
+      ],
+      "summary": "Web Developer working on a social network project using Meteor and React.js."
     },
     {
       "name": "eDocu a.s.",
       "position": "Junior Web Developer",
       "startDate": "2015-02-28",
       "endDate": "2016-02-28",
-      "highlights": [],
-      "summary": "- As a Junior Web Developer at eDocu, I had the opportunity to work on a unique and innovative platform that utilizes stickers with QR codes and NFC chips to bring users the right information on the spot.\n\n- I was part of a team responsible for the development and maintenance of a robust web application, which was built using dockerized microservices and a variety of technologies, including Node.js, Clojure, MongoDB, and AngularJS.\n\n- My main responsibilities included the development of new features using AngularJS, as well as the design of basic UI/UX elements to improve the user experience.\n\n- In addition to frontend development, I also contributed to backend services using Node.js, including the creation of migration and utility scripts.\n\n- Throughout my time at eDocu, I had the chance to learn from more experienced team members and participate in various learning opportunities to enhance my skills and knowledge in web development.",
-      "url": "https://www.linkedin.com/company/infones-s-r-o-/",
+      "highlights": [
+        "Worked on a unique and innovative platform that utilizes stickers with QR codes and NFC chips to bring users the right information on the spot",
+        "Part of a team responsible for the development and maintenance of a robust web application, built using dockerized microservices and technologies including Node.js, Clojure, MongoDB, and AngularJS",
+        "Developed new features using AngularJS and designed basic UI/UX elements to improve the user experience",
+        "Contributed to backend services using Node.js, including the creation of migration and utility scripts",
+        "Learned from more experienced team members and participated in various learning opportunities to enhance skills and knowledge in web development"
+      ],
+      "summary": "Junior Web Developer working on a platform utilizing QR codes and NFC chips with AngularJS and Node.js.",
       "location": "Bratislava, Slovakia"
     },
     {
@@ -109,9 +172,14 @@
       "position": "Mystery shopping report reviewer",
       "startDate": "2012-05-31",
       "endDate": "2013-02-28",
-      "highlights": [],
-      "summary": "- Review and evaluate mystery shopping reports for grammatical, stylistic, and logical correctness\n\n- Communicate with external employees to clarify and resolve any issues with report submissions\n\n- Conduct web research to gather additional information as needed\n\n- Translate reports and documents from Slovak to English as needed\n\n- Ensure that all reports meet the company's standards for quality and accuracy",
-      "url": "https://www.linkedin.com/company/market-vision-s-r-o-/",
+      "highlights": [
+        "Reviewed and evaluated mystery shopping reports for grammatical, stylistic, and logical correctness",
+        "Communicated with external employees to clarify and resolve any issues with report submissions",
+        "Conducted web research to gather additional information as needed",
+        "Translated reports and documents from Slovak to English as needed",
+        "Ensured that all reports met the company's standards for quality and accuracy"
+      ],
+      "summary": "Mystery shopping report reviewer ensuring quality and accuracy of submitted reports.",
       "location": "Bratislava, Slovakia"
     }
   ],
