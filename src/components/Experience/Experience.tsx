@@ -47,15 +47,22 @@ const Experience = ({ work }: ExperienceProps) => {
                 </div>
                 <Card className="border-none shadow-sm hover:shadow-md transition-all duration-300 glow-effect">
                   <CardHeader className="pb-2">
-                    <div className="flex flex-wrap items-center gap-2">
-                      <CardTitle className="text-xl">{job.position}</CardTitle>
-                      <Badge variant="outline" className="font-medium text-accent">{job.name}</Badge>
+                    <div className="flex flex-col gap-1">
+                      <div className="flex items-center gap-2">
+                        <CardTitle className="text-xl font-bold">{job.name}</CardTitle>
+                        {job.isRemote && (
+                          <Badge variant="secondary" className="font-medium text-xs">Remote</Badge>
+                        )}
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-lg font-medium text-muted-foreground">{job.position}</span>
+                      </div>
                     </div>
                     <CardDescription>
                       {formatDate(job.startDate)} - {formatDate(job.endDate)}
                       {job.location && (
                         <>
-                          <span className="mx-2">•</span>
+                          <span className="mx-2">·</span>
                           <span>{job.location}</span>
                         </>
                       )}

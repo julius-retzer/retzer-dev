@@ -3,7 +3,7 @@
   "basics": {
     "name": "Július Retzer",
     "label": "Senior Software Engineer @ Quotebeam | React, Typescript, Next.js",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/v2/C4D03AQH9WmGQWIW-oA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1570033792433?e=1748476800&v=beta&t=7HfiNMAgB0vozmU-gfGOdaFZmGl7sKl8eckrOv8EIpo",
     "email": "jul.retzer@gmail.com",
     "phone": "+421948723087",
     "url": "https://retzer.dev",
@@ -31,6 +31,7 @@
       "position": "Senior Software Engineer",
       "startDate": "2022-11-30",
       "endDate": "2025-04-18",
+      "isRemote": true,
       "highlights": [
         "Partner with cross-functional teams to architect and implement high-quality frontend features",
         "Engineer maintainable, performant React/TypeScript UIs that empower customers to deliver timely communications at scale",
@@ -72,6 +73,7 @@
       "position": "Lead Software Engineer",
       "startDate": "2021-10-31",
       "endDate": "2022-11-30",
+      "isRemote": true,
       "highlights": [
         "Developed and maintained a responsive web application enabling users to browse menus, customize products, place orders, and coordinate restaurant pickup",
         "Took full ownership of the guest checkout flow, implementing a seamless experience from design to production",
@@ -90,6 +92,7 @@
       "position": "Senior Software Engineer",
       "startDate": "2020-09-30",
       "endDate": "2021-10-31",
+      "isRemote": true,
       "highlights": [
         "Built responsive, user-friendly interfaces using React, Redux, and TypeScript",
         "Managed deployment processes and troubleshooting for production environments",
@@ -164,21 +167,6 @@
       ],
       "summary": "Junior Web Developer working on a platform utilizing QR codes and NFC chips with AngularJS and Node.js.",
       "location": "Bratislava, Slovakia"
-    },
-    {
-      "name": "Market Vision s.r.o.",
-      "position": "Mystery shopping report reviewer",
-      "startDate": "2012-05-31",
-      "endDate": "2013-02-28",
-      "highlights": [
-        "Reviewed and evaluated mystery shopping reports for grammatical, stylistic, and logical correctness",
-        "Communicated with external employees to clarify and resolve any issues with report submissions",
-        "Conducted web research to gather additional information as needed",
-        "Translated reports and documents from Slovak to English as needed",
-        "Ensured that all reports met the company's standards for quality and accuracy"
-      ],
-      "summary": "Mystery shopping report reviewer ensuring quality and accuracy of submitted reports.",
-      "location": "Bratislava, Slovakia"
     }
   ],
   "volunteer": [],
@@ -189,16 +177,8 @@
   "skills": [],
   "languages": [
     {
-      "fluency": "Elementary",
-      "language": "Danish"
-    },
-    {
       "fluency": "Professional Working",
       "language": "English"
-    },
-    {
-      "fluency": "Limited Working",
-      "language": "Portuguese"
     },
     {
       "fluency": "Native Speaker",

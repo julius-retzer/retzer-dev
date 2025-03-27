@@ -20,12 +20,13 @@ export type CVData = {
   work: Array<{
     name: string;
     position: string;
-    url: string;
+    url?: string;
     startDate: string;
     endDate: string;
     summary: string;
     highlights: string[];
     location?: string;
+    isRemote?: boolean;
   }>;
   volunteer: Array<{
     organization: string;
