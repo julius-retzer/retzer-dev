@@ -32,7 +32,6 @@
       "startDate": "2022-11-30",
       "endDate": "2025-04-18",
       "highlights": [
-        "Responsibilities:",
         "Partner with cross-functional teams to architect and implement high-quality frontend features",
         "Engineer maintainable, performant React/TypeScript UIs that empower customers to deliver timely communications at scale",
         "Drive improvements to the component system and design implementation",
@@ -41,7 +40,6 @@
         "Conduct performance audits and implement technical improvements to enhance user experience",
         "Create and maintain comprehensive technical documentation for components and development standards",
         "Manage competing priorities across multiple projects while meeting critical business deadlines",
-        "Key Achievements:",
         "Led the transition to TypeScript, significantly improving code quality, type safety, and developer productivity",
         "Architected the frontend infrastructure, making critical technical decisions around state management, build processes, and application structure",
         "Evaluated and implemented optimal libraries and frameworks to enhance development efficiency and application performance",
@@ -49,7 +47,7 @@
         "Introduced modern development practices that kept the codebase current with industry standards and best practices"
       ],
       "summary": "",
-      "url": "https://www.linkedin.com/company/quotebeam/",
+      "url": "https://www.quotebeam.com",
       "location": "California, United States"
     },
     {
