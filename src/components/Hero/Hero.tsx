@@ -42,11 +42,11 @@ const Hero = ({ data }: HeroProps) => {
                  Contact Me
                 </Link>
               </Button>
-              <Button variant="outline" asChild className="relative overflow-hidden group">
+              {/* <Button variant="outline" asChild className="relative overflow-hidden group">
                 <Link href="#projects">
                  View Projects
                 </Link>
-              </Button>
+              </Button> */}
             </div>
           </div>
           <div className="order-1 flex justify-center md:order-2">
