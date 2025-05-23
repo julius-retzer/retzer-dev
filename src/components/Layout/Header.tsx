@@ -9,8 +9,8 @@ const navItems: NavItem[] = [
   { label: 'Summary', href: '#about' },
   { label: 'Experience', href: '#experience' },
   { label: 'Skills', href: '#skills' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Contact', href: '#contact' },
+  // { label: 'Projects', href: '#projects' },
+  // { label: 'Contact', href: '#contact' },
 ];
 
 const Header = () => {
@@ -24,7 +24,7 @@ const Header = () => {
           <ul className="flex items-center space-x-8">
             {navItems.map((item) => (
               <li key={item.label}>
-                <Link 
+                <Link
                   href={item.href}
                   className="text-sm font-medium text-foreground transition-colors hover:text-primary relative group"
                 >
@@ -35,7 +35,7 @@ const Header = () => {
             ))}
           </ul>
         </nav>
-        <button 
+        <button
           className="rounded-md border border-border p-2 text-foreground hover:text-primary hover:border-primary transition-colors md:hidden"
           aria-label="Toggle menu"
         >

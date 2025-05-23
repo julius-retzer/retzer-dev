@@ -20,8 +20,8 @@ export default function HomePage() {
       <Summary data={cvData.basics} />
       <Experience work={cvData.work || []} />
       <Skills skills={cvData.skills || []} />
-      <Projects projects={projects} />
-      <Contact data={cvData.basics} />
+      {/* <Projects projects={projects} /> */}
+      {/* <Contact data={cvData.basics} /> */}
     </MainLayout>
   );
 }

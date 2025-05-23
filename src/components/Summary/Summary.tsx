@@ -30,13 +30,13 @@ const Summary = ({ data }: SummaryProps) => {
                 key={profile.network}
                 variant="outline"
                 size="sm"
-                className="gap-2 hover:bg-primary/10 hover:text-primary transition-colors"
                 asChild
               >
                 <a
                   href={profile.url}
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="flex items-center gap-2"
                 >
                   {profile.network === 'LinkedIn' && (
                     <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -55,11 +55,11 @@ const Summary = ({ data }: SummaryProps) => {
             <Button 
               variant="outline"
               size="sm"
-              className="gap-2 hover:bg-accent/10 hover:text-accent transition-colors"
               asChild
             >
               <a
                 href={`mailto:${data.email}`}
+                className="flex items-center gap-2"
               >
                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
