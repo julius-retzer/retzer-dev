@@ -3,7 +3,7 @@
   "basics": {
     "name": "Július Retzer",
     "label": "Senior Software Engineer @ Quotebeam | React, Typescript, Next.js",
-    "image": "https://media.licdn.com/dms/image/v2/C4D03AQH9WmGQWIW-oA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1570033792433?e=1748476800&v=beta&t=7HfiNMAgB0vozmU-gfGOdaFZmGl7sKl8eckrOv8EIpo",
+    "image": "/avatar2.jpg",
     "email": "jul.retzer@gmail.com",
     "phone": "+421948723087",
     "url": "https://retzer.dev",
@@ -101,7 +101,6 @@
         "Collaborated with cross-functional teams to improve application quality and performance"
       ],
       "summary": "Contributed to frontend development for a major American fast food chain's online ordering platform."
-
     },
     {
       "name": "OpenLab.sk",
@@ -234,7 +233,14 @@
         "Built with accessibility in mind, following gov.uk Design System guidelines",
         "Created extensive automated test suite to ensure calculation accuracy"
       ],
-      "keywords": ["React", "TypeScript", "Next.js", "Cypress", "Jest", "GitHub Actions"],
+      "keywords": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Cypress",
+        "Jest",
+        "GitHub Actions"
+      ],
       "startDate": "2020-02-28",
       "endDate": "2023-01-31",
       "url": "https://priznanie.digital",

@@ -10,7 +10,7 @@ type HeroProps = {
 
 const Hero = ({ data }: HeroProps) => {
   const initials = data.name.split(' ').map(name => name[0]).join('');
-
+  console.log(data.image);
   return (
     <section className="relative min-h-[90vh] flex items-center py-16 overflow-hidden">
       {/* Background decoration elements */}
@@ -55,7 +55,7 @@ const Hero = ({ data }: HeroProps) => {
               <div className="absolute -z-10 inset-0 rounded-full bg-gradient-to-r from-primary/30 to-accent/20 blur-xl animate-pulse"></div>
               <div className="absolute -z-10 -inset-1 rounded-full bg-gradient-to-r from-primary/40 via-accent/20 to-primary/40 animate-spin-slow"></div>
 
-              <Avatar className="h-64 w-64 sm:h-72 sm:w-72 md:h-80 md:w-80 border-4 border-background shadow-xl animate-fade-in">
+              <Avatar className="h-64 w-64 sm:h-72 sm:w-72 md:h-80 md:w-80 border-4 border-background shadow-xl animate-fade-in object-contain">
                 {data.image ? (
                   <AvatarImage src={data.image} alt={data.name} />
                 ) : (
